@@ -1,0 +1,22 @@
+title = "Parents and Co"
+baseURL = "http://example.org/"
+languageCode = "en-us"
+theme = 'ananke'
+resourceDir = "../resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[params]
+  text_color = ""
+  author = ""
+  favicon = ""
+  site_logo = ""
+  body_classes = "helvetica bg-near-white"
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/zaptrem"
